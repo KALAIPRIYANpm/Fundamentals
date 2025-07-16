@@ -6,7 +6,6 @@ public class staticMethod {
             System.out.println("Hello all");
         }
     }
-
     public static void main(String[] args) {
         staticMethod.InnerClass.display();
     }
