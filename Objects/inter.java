@@ -4,11 +4,7 @@ interface personalInfo{
     void display();
     void message();
 }
-
-
-
  class inter implements personalInfo {
-
     String name ;
     int age ;
     public void display(){
@@ -25,7 +21,6 @@ interface personalInfo{
         System.out.println("hello im the teacher");
        }
     }
-
     public static void main(String[] args) {
         inter i = new inter();
         i.name="kalaipriyan";
@@ -36,6 +31,4 @@ interface personalInfo{
         t.display();
         t.message();
     }
-
-    
 }
