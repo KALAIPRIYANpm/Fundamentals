@@ -14,7 +14,7 @@ class Child extends parent{
 }
 
 public class example {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Child c = new Child();
         c.childMethod();
         c.parentMethod();
