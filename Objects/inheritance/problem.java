@@ -1,4 +1,4 @@
-package Objects.inheritance;
+// package Objects.inheritance;
 
 class Library{
 
@@ -10,6 +10,7 @@ class Library{
         System.out.println("Welcome to my Library");
     }
 }
+
 
 class Books extends Library{
     void BookMethods(){
@@ -28,8 +29,6 @@ class NewsPaper extends Library{
 System.out.println(Newspaper); 
 }
 }
-
-
 public class problem {
     public static void main(String[] args) {
         Books b = new Books();
@@ -39,6 +38,5 @@ public class problem {
         NewsPaper n = new NewsPaper();
         n.New();
         n.LibraryMethod();
-    }
-    
+    }   
 }
